@@ -242,6 +242,12 @@ background-repeat: no-repeat;
   padding: 2.5rem 0;
 }
 
+@media only screen and (max-width: 760px) {
+.feature .content {
+    padding: 1.25rem 0 1.875rem 0;
+}
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -366,16 +372,16 @@ background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
